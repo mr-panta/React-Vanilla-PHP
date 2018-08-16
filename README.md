@@ -12,7 +12,7 @@ This repository was created to demonstrate communications between React which is
 4. Browse `http://localhost:3000` to test it.
 
 ## Deployment
-Normally, React won't be going to deploy with NodeJS-wrapped which used in the development mode. React project has to be builded into a chuck of standard Javascript files and placed in the same directory on backend by doing the following steps.
+Normally, React is not going to be deployed with NodeJS-wrapped which used in the development mode. React project has to be builded into a chuck of standard Javascript files and placed in the same directory on backend by doing the following steps.
 
 1. Open `frontend` directory and type `npm install` to install node dependencies. (if you didn't do it before)
 2. Edit the file named `frontend/src/env.json` by changing the value of `backendRoot` from `"backendRoot": "http://localhost:3001"` into `"backendRoot": ""`
