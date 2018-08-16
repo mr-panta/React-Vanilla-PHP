@@ -1,5 +1,5 @@
 # React + Vanilla PHP practice
-This repository was created to demonstrate a communication between React which is a frontend framework and Vanilla PHP which a backend language.
+This repository was created to demonstrate communications between React which is a frontend framework and Vanilla PHP which a backend language.
 
 ## Server Requirements
 - PHP latest version
