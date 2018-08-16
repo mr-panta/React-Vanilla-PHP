@@ -16,7 +16,7 @@ Normally, React won't be going to deploy with NodeJS-wrapped which used in the d
 
 1. Open "frontend" directory and type `npm install` to install node dependencies. (if you didn't do it before)
 2. Edit the file named "frontend/src/env.json" by changing the value of "backendRoot" from `"backendRoot": "http://localhost:3001"` into `"backendRoot": ""`
-3. Type `npm build` to build React into ready-to-use files. Then, a directory named "build" will be created.
+3. Type `npm run-script build` to build React into ready-to-use files. Then, a directory named "build" will be created.
 4. Copy all files in the "build" directory and paste on the "backend" directory.
 5. Open "backend" directory and type `php -S localhost:3001` to start backend php server.
 6. Browse `http://localhost:3001` to test it.
